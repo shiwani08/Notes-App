@@ -18,6 +18,4 @@ document.addEventListener("DOMContentLoaded", () => {
     const mainScript = document.createElement("script")
     mainScript.src = "script.js"
     document.head.appendChild(mainScript);
-
-    
 })
