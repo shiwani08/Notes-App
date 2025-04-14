@@ -19,7 +19,5 @@ document.addEventListener("DOMContentLoaded", () => {
     mainScript.src = "script.js"
     document.head.appendChild(mainScript);
 
-    const navScript = document.createElement("script")
-    navScript.src = "loadNavBar.js"
-    document.body.appendChild(navScript);
+    
 })
