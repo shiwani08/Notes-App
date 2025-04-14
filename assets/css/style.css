@@ -114,3 +114,7 @@ body {
 .edit-icon:hover, .trash-icon:hover, .star-icon:hover {
     color: white;
 }
+
+.star-icon.yellow {
+    color: yellow;
+}
