@@ -14,7 +14,7 @@ function addNewNote (text = '') {
 
     note.innerHTML = `
     <div class = "tools">
-        <button class="edit">E</button>
+        <button class="edit"><i class="fa-solid fa-pen-to-square"></i></button>
         <button class="delete">D</button>
     </div>
 
