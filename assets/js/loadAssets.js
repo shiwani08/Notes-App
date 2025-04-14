@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const mainStyle = document.createElement("link")
     mainStyle.rel = "stylesheet"
-    mainStyle.href = "style.css"
+    mainStyle.href = "../assets/css/style.css"
     document.head.appendChild(mainStyle);
 
     // loading scripts
@@ -16,6 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
     document.head.appendChild(marked);
 
     const mainScript = document.createElement("script")
-    mainScript.src = "script.js"
+    mainScript.src = "../assets/js/script.js"
     document.head.appendChild(mainScript);
 })
