@@ -74,7 +74,7 @@ body {
     border: none;
     height: 400px;
     width: 100%;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 
 .note .tools {
@@ -106,4 +106,11 @@ body {
 
 .hidden {
     display: none;
+}
+.edit-icon, .trash-icon, .star-icon{
+    transition: color 0.3s, transform 0.3s;
+}
+
+.edit-icon:hover, .trash-icon:hover, .star-icon:hover {
+    color: white;
 }
