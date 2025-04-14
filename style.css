@@ -30,7 +30,7 @@ body {
 .navBar a:hover {
     text-decoration: underline;
     text-shadow: 0cap;
-    color: rgb(245, 107, 107);
+    color: rgb(46, 87, 64);
     font-weight: bold;
 }
 
@@ -43,7 +43,7 @@ body {
 
 .addNote {
     border-radius: 5px;
-    background-color: chocolate ;
+    background-color: rgb(101, 193, 82) ;
     color: beige;
     padding: 7.5px 2rem 0.5rem;
     cursor: pointer;
@@ -57,7 +57,7 @@ body {
 }
 
 .addNote:hover {
-    background-color: rgb(100, 73, 58);
+    background-color: rgb(46, 87, 64);
     color: blanchedalmond;
 }
 
@@ -78,7 +78,7 @@ body {
 }
 
 .note .tools {
-    background-color: rgb(42, 215, 117);
+    background-color: rgb(46, 87, 64);
     display: flex;
     justify-content: flex-end;
     padding: 0.5rem;
@@ -87,7 +87,7 @@ body {
 .note .tools button{
     background-color: transparent;
     border: none;
-    color: rgb(220, 78, 78);
+    color: rgb(168, 215, 191);
     font-size: 1rem;
     font-weight: bold;
     padding: 0.5rem;
@@ -106,8 +106,4 @@ body {
 
 .hidden {
     display: none;
-}
-
-i {
-    font-family: 'Font Awesome 6 Free'
 }
