@@ -118,26 +118,3 @@ body {
 .star-icon.yellow {
     color: yellow;
 }
-
-@media (max-width: 768px) {
-    .navBar {
-        flex-direction: column;
-        gap: 20px;
-        padding: 20px 0;
-        height: auto;
-        font-size: 1rem;
-    }
-
-    .notesContainer {
-        grid-template-columns: 1fr;
-        padding: 20px;
-        gap: 20px;
-    }
-
-    .addNote {
-        padding: 10px 1.5rem;
-        font-size: 1rem;
-        top: 0.5rem;
-        right: 0.5rem;
-    }
-}
