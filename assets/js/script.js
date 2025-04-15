@@ -1,18 +1,18 @@
 const addBtn = document.getElementById('addNote')
 
 // parse converts json string to js
-// const notes = JSON.parse(localStorage.getItem('notes')) || []
+const notes = JSON.parse(localStorage.getItem('notes')) || []
 
-// if(notes) {
-//     notes.forEach(note => addNewNote(note))
-// }
+if(notes) {
+    notes.forEach(note => addNewNote(note))
+}
 
-fetch('assets/notes.json')
-  .then(res => res.json())
-  .then(notes => {
-    notes.forEach(note => addNewNote(note));
-  })
-  .catch(err => console.error('Failed to load notes:', err));
+// fetch('assets/js/notes.json')
+//   .then(res => res.json())
+//   .then(notes => {
+//     notes.forEach(note => addNewNote(note));
+//   })
+//   .catch(err => console.error('Failed to load notes:', err));
 
 addBtn.addEventListener('click', () => addNewNote())
 
