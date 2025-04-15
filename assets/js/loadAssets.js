@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const mainStyle = document.createElement("link");
     mainStyle.rel = "stylesheet";
-    mainStyle.href = "../assets/css/style.css";
+    mainStyle.href = "assets/css/style.css";
     document.head.appendChild(mainStyle);
 
     // adding favicon
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     markedScript.onload = () => {
         // Once marked.js is loaded, load the main script (script.js)
         const mainScript = document.createElement("script");
-        mainScript.src = "../assets/js/script.js";
+        mainScript.src = "assets/js/script.js";
         document.head.appendChild(mainScript);
     };
 
