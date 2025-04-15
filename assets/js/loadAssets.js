@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // adding favicon
     const faviconIcon = document.createElement("link");
     faviconIcon.rel = "icon";
-    faviconIcon.href = "../images/favicon.png";
+    faviconIcon.href = "images/favicon.png";
     document.head.appendChild(faviconIcon);
 
     // loading marked.js
