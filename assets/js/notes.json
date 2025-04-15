@@ -1,0 +1,10 @@
+[
+    {
+        "notes": "This is a dummy data",
+        "starred": false
+    },
+    {
+        "notes": "This is a starred data",
+        "starred": true
+    }
+]
