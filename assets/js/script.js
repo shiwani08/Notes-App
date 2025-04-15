@@ -7,7 +7,7 @@ const addBtn = document.getElementById('addNote')
 //     notes.forEach(note => addNewNote(note))
 // }
 
-fetch('../assets/js/notes.json')
+fetch('notes.json')
   .then(res => res.json())
   .then(notes => {
     notes.forEach(note => addNewNote(note));
